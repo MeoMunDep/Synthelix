@@ -57,7 +57,7 @@ You can clone the bot repository using Git. If you don't have Git installed, [in
 - Once inside the bot directory, install the necessary dependencies by running the following command:
 
 ```bash
-npm install --force user-agents axios colors https-proxy-agent socks-proxy-agent ethers web3 crypto
+npm install --force user-agents axios colors https-proxy-agent socks-proxy-agent ethers web3 
 ```
 
 - If you're on **Windows** and encounter an Execution Policy error, run:
