@@ -95,7 +95,6 @@ This file controls the bot’s behavior. Below is an example configuration:
   "delayEachAccount": [5, 8],
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 100,
-  "doTasks": true,
   "referralCodes": ["DAuzQaAF"]
 }
 ```
@@ -107,14 +106,13 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
-  - `doTasks`: Enable task completion.
   - `playGames`: Enable game-playing feature.
   - `referralCodes`: Add your referral code (optional). Do not change it if you want to support me ^^.
 
 ### 2. `privateKeys.txt` - 🗂️ User's Wallet Data
 
 - Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
-
+- EVM PRIVATEKEY
 ```txt
 privatekey
 privatekey
