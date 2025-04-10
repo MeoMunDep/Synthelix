@@ -49,7 +49,7 @@ You can clone the bot repository using Git. If you don't have Git installed, [in
 - After cloning, navigate into the bot's directory:
 
   ```bash
-  cd bot-repository/bot-repository
+  cd synthelix/synthelix
   ```
 
 ### 2. **Install Dependencies:**
