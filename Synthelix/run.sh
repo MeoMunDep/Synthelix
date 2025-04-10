@@ -67,14 +67,11 @@ fi
 create_default_configs() {
     cat > configs.json << EOL
 {
-  "timeZone": "en-US",
-  "skipInvalidProxy": true,
-  "delayEachAccount": [1, 1],
+  "skipInvalidProxy": false,
+  "delayEachAccount": [5, 8],
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 200,
-  "doTasks": true,
-  "doReferrals": true,
-  "referralCodes": ["", "", "", ""]
+  "referralCodes": ["kqrf5FWN"]
 }
 EOL
 }
