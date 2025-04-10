@@ -71,7 +71,7 @@ Then, run the npm install command again.
 - For **Linux/macOS**, if you face permission issues with the install command, prepend `sudo` to the command:
 
 ```bash
-sudo npm install --force user-agents axios colors p-limit https-proxy-agent socks-proxy-agent ethers web3 crypto-js ws uuid xlsx readline-sync moment lodash qs proper-lockfile
+sudo npm install --force user-agents axios colors https-proxy-agent socks-proxy-agent ethers web3 
 ```
 
 ### 3. **Prepare Configuration Files:**
