@@ -106,7 +106,6 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
-  - `playGames`: Enable game-playing feature.
   - `referralCodes`: Add your referral code (optional). Do not change it if you want to support me ^^.
 
 ### 2. `privateKeys.txt` - 🗂️ User's Wallet Data
