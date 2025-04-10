@@ -14,10 +14,12 @@ if not exist configs.json (
     echo   "delayEachAccount": [5, 8],>> configs.json
     echo   "timeToRestartAllAccounts": 300,>> configs.json
     echo   "howManyAccountsRunInOneTime": 100,>> configs.json
-    echo   "referralCode": "">> configs.json
+    echo   "referralCode": ["kqrf5FWN"]>> configs.json
     echo }>> configs.json
     echo Created configs.json
 )
+
+
 
 (for %%F in (privateKeys.txt proxies.txt) do (
     if not exist %%F (
@@ -32,11 +34,11 @@ echo Checking dependencies...
 if exist "..\node_modules" (
     echo Using node_modules from parent directory...
     cd ..
-    CALL npm install user-agents axios colors https-proxy-agent socks-proxy-agent ethers web3 ws uuid xlsx readline-sync moment lodash
+    CALL npm install user-agents axios colors https-proxy-agent socks-proxy-agent ethers web3 
     cd %~dp0
 ) else (
     echo Installing dependencies in current directory...
-    CALL npm install user-agents axios colors https-proxy-agent socks-proxy-agent ethers web3 ws uuid xlsx readline-sync moment lodash
+    CALL npm install user-agents axios colors https-proxy-agent socks-proxy-agent ethers web3 
 )
 echo Dependencies installation completed!
 
