@@ -43,7 +43,7 @@ You can clone the bot repository using Git. If you don't have Git installed, [in
 - Run the following command to clone the repository:
 
   ```bash
-  git clone https://github.com/MeoMunDep/bot-repository.git
+  git clone https://github.com/MeoMunDep/synthelix.git
   ```
 
 - After cloning, navigate into the bot's directory:
