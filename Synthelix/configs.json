@@ -3,5 +3,6 @@
   "delayEachAccount": [5, 8],
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 200,
+  "doTasks": true,
   "referralCodes": ["kqrf5FWN"]
 }
